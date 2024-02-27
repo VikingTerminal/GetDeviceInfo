@@ -4,6 +4,6 @@ git clone https://github.com/VikingTerminal/GetDeviceInfo
 
 cd GetDeviceInfo
 
-chmod +x GetDeviceInfo
+chmod +x Devicelnfo.py
 
 python Devicelnfo.py
