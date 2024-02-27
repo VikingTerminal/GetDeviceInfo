@@ -19,7 +19,7 @@ def get_location_info():
     if location and location.latlng:
         return location.latlng
     else:
-        print_colored_text("Errore: Impossibile ottenere la posizione del dispositivo.", "31")  # Rosso
+        print_colored_text("Errore: Impossibile ottenere la posizione del dispositivo.", "31")  
         exit(1)
 
 def gather_system_info():
@@ -30,31 +30,31 @@ def gather_system_info():
 
 def display_system_info(system_info, location_info):
    
-    print_colored_text("Sistema operativo: ", "36")  # Ciano
+    print_colored_text("Sistema operativo: ", "36")  
     typewriter_effect(system_info.system)
     print()
 
-    print_colored_text("Nome host: ", "32")  # Verde
+    print_colored_text("Nome host: ", "32")  
     typewriter_effect(system_info.node)
     print()
 
-    print_colored_text("Release del kernel: ", "33")  # Giallo
+    print_colored_text("Release del kernel: ", "33")  
     typewriter_effect(system_info.release)
     print()
 
-    print_colored_text("Versione del kernel: ", "36")  # Ciano
+    print_colored_text("Versione del kernel: ", "36")  
     typewriter_effect(system_info.version)
     print()
 
-    print_colored_text("Macchina: ", "32")  # Verde
+    print_colored_text("Macchina: ", "32")  
     typewriter_effect(system_info.machine)
     print()
 
-    print_colored_text("Latitudine: ", "36")  # Ciano
+    print_colored_text("Latitudine: ", "36")  
     typewriter_effect(str(location_info[0]))
     print()
 
-    print_colored_text("Longitudine: ", "33")  # Giallo
+    print_colored_text("Longitudine: ", "33")  
     typewriter_effect(str(location_info[1]))
     print()
 
@@ -85,7 +85,7 @@ def main():
     system_info, location_info = gather_system_info()
     display_system_info(system_info, location_info)
     save_system_info_to_file(system_info, location_info)
-    print_colored_text("Grazie per aver usato questo tool. Prova altre utility. Visita https://github.com/VikingTerminal", "36")  # Ciano chiaro
+    print_colored_text("Grazie per aver usato questo tool. Prova altre utility. Visita https://github.com/VikingTerminal", "36") 
 
 if __name__ == "__main__":
     main()
