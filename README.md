@@ -6,4 +6,4 @@ cd GetDeviceInfo
 
 chmod +x GetDeviceInfo
 
-python 
+python Devicelnfo.py
