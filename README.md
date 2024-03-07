@@ -10,6 +10,7 @@ chmod +x Devicelnfo.py
 
 python Devicelnfo.py
 
+-----------------------------------
 
 💯 C++ COMMAND : 
 
