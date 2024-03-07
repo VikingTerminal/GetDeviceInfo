@@ -16,6 +16,10 @@ python Devicelnfo.py
 
 pkg install g++ (if you use termux)
 
+git clone https://github.com/VikingTerminal/GetDeviceInfo
+
+cd GetDeviceInfo
+
 g++ Deviceinfo.cxx -o Deviceinfo
 
 ./Deviceinfo
