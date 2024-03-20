@@ -1,4 +1,4 @@
-💯 PYTHON COMMAND :
+💯 PYTHON INSTALL:
 
 pip install geocoder
 
@@ -12,7 +12,7 @@ python Devicelnfo.py
 
 -----------------------------------
 
-💯 C++ COMMAND : 
+💯 C++ INSTALL: 
 
 pkg install g++ (if you use termux)
 
@@ -23,3 +23,19 @@ cd GetDeviceInfo
 g++ Deviceinfo.cxx -o Deviceinfo
 
 ./Deviceinfo
+
+-----------------------------------
+
+💯 RUBY INSTALL:
+
+pkg install ruby 
+
+gem install geocoder
+
+git clone https://github.com/VikingTerminal/GetDeviceInfo
+
+cd GetDeviceInfo
+
+chmod +x DeviceInfo.rb
+
+ruby DeviceInfo.rb
